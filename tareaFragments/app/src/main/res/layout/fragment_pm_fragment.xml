@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="cr.ac.itcr.tareafragments.pm_fragment"
+    android:background="#1eb2a0">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PM_FRAGMENT"
+        android:textSize="20dp"
+        android:background="#65daad" />
+
+    <ImageView
+        android:layout_width="232dp"
+        android:layout_height="232dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/rr" />
+
+</LinearLayout>
